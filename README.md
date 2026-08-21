@@ -1,75 +1,85 @@
-# React + TypeScript + Vite
+# Aono Samson — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern, responsive developer portfolio showcasing my software engineering projects, AI/ML work, full-stack applications, technical skills, experience, and professional journey.
 
-Currently, two official plugins are available:
+![Portfolio](https://img.shields.io/badge/Portfolio-React%20%2B%20TypeScript-06b6d4?style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.x-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This repository contains my personal developer portfolio.
 
-## Expanding the ESLint configuration
+The portfolio is designed to provide a professional overview of my background, technical capabilities, software development experience, and selected projects.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+It also includes detailed project case studies with screenshots, technologies used, key features, and links to source code or live demonstrations where available.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+The portfolio focuses on:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Full-Stack Software Development
+- Artificial Intelligence & Machine Learning
+- Data Science
+- Backend Development
+- Mobile Application Development
+- REST API Development
+- Database Systems
+- Practical Software Engineering
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
-```
+# Portfolio Structure
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The portfolio is organized into dedicated pages that provide different aspects of my professional profile.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+```text
+Portfolio
+│
+├── Home
+│   ├── Introduction
+│   ├── Profile
+│   ├── Professional Focus
+│   ├── Social Links
+│   └── CV Download
+│
+├── About
+│   ├── Professional Summary
+│   ├── Background
+│   └── Development Philosophy
+│
+├── Skills
+│   ├── Frontend Development
+│   ├── Backend Development
+│   ├── Programming Languages
+│   ├── AI / Machine Learning
+│   ├── Data Science
+│   ├── Databases
+│   └── Tools & Technologies
+│
+├── Projects
+│   ├── Featured Projects
+│   ├── Project Cards
+│   └── Project Categories
+│
+├── Project Case Studies
+│   ├── Project Overview
+│   ├── Technologies
+│   ├── Key Features
+│   ├── Screenshots
+│   ├── GitHub Repository
+│   └── Live Demo
+│
+├── Experience
+│   ├── Development Journey
+│   ├── Software Engineering Experience
+│   ├── AI / ML Experience
+│   └── Core Capabilities
+│
+└── Contact
+    ├── Contact Form
+    ├── Email
+    ├── GitHub
+    └── LinkedIn
